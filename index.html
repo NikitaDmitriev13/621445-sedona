@@ -69,18 +69,42 @@
           </section>
             <b class="visually-hidden">Заинтересовались?</b>
             <p>Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в седоне</p>
-            <a href="search.html">Поиск гостиницы в седоне</a>
             <section class="modal modal-login">
-                <h2>Поиск гостиницы в седоне</h2>
-                <a class="buttom" href="search.html">Найти</a>
-              </section>
+              <h1>Поиск гостиницы в седоне</h1>
+              <form class="user" method="post" action="https://echo.htmlacademy.ru">
+                <p>
+                  <label for="arrival-date">Дата заезда:</label>
+                  <input id="arrival-date" type="text" name="date" placeholder="24 апреля 2017">
+                  <button class="button">Клендарь</button>
+                </p>
+                <p>
+                  <label for="departure-date">Дата выезда:</label>
+                  <input id="departure-date" type="text" name="date" placeholder="4 июня 2017">
+                  <button class="button">Клендарь</button>
+                </p>
+                <p>
+                  <label for="adults">Взрослые:</label>
+                  <input type="text" name="age" placeholder="2">
+                  <button class="button">+</button>
+                  <button class="button">-</button>
+                </p>
+                <p>
+                  <label for="adults">Дети:</label>
+                  <input type="text" name="age" placeholder="0">
+                  <button class="button">+</button>
+                  <button class="button">-</button> 
+                </p>
+              </form>
+            <a class="buttom" href="search.html">Найти</a>
+            </section>
             <img src="ссылка" alt="карта">
           <footer class="main-footer">
             <p>#visitsedona</p>
-            <a class="social-button" href="#">Твитер</a>
-            <a class="social-button" href="#">Фейсбук</a>
-            <a class="social-button" href="#">Ютуб</a>
-            <p><a href="site.html">website by html Academy</a></p>
+            <a href="https://twitter.com/" class="social-icon social-icon_fh" aria-label="Твитер">Твитер</a>
+            <a href="https://www.facebook.com/" class="social-icon social-icon_fh" aria-label="Фесбук">Фесбук</a>
+            <a href="https://www.youtube.com/" class="social-icon social-icon_fh" aria-label="Ютубе">Ютуб</a>
+            <p>website by</p>
+            <a href="site.html">Html Academy</a>
           </footer>
   </body>
 </html>
