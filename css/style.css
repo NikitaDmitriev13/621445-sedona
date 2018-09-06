@@ -68,10 +68,6 @@ a {
   background-color: #ededed;
 }
 
-.logo-background {
-  background-image: url("img/bg-photo.jpg");
-}
-
 .link-color a {
   color: #fefefe;
   background-color: #706358;
@@ -93,6 +89,7 @@ a {
 
 .logo-background {
   background-image: url("/home/dav/621445-sedona/img/bg-photo.jpg");
+  background-repeat: no-repeat;
 }
 
 .button {
@@ -172,6 +169,60 @@ a {
   padding-top: 15px;
   padding-bottom: 15px;
 }
+
+/*-----Сеточные стили-----*/
+
+.main-navigation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+  background-color: transparent;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.logo {
+  width: 459px;
+  height: 353px; 
+  display: block;
+  margin: 0 auto; 
+}
+
+.features-list {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+  
+  /* Временно для сетки */
+  min-height: 170px;
+}
+
+.features-item {
+  width: 300px;
+
+  /* Временно для сетки */
+  min-height: 170px;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
