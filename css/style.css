@@ -14,6 +14,14 @@ body {
   background-repeat: no-repeat;
 }
 
+.visually-hidden {
+  display: none;
+}
+
+h1 {
+  text-align: center;
+}
+
 a {
   text-decoration: none;
 }
@@ -21,7 +29,7 @@ a {
 .explanation {
   color: #6c6c6c;
 
-  font-size: 10px;
+  font-size: 14px;
 }
 
 .main-navigation {
@@ -61,11 +69,19 @@ a {
 }
 
 .arguments {
+ width: 400px;
+  height: 256px;
+  color: #ffffff;
   background-color: #90b2d0;
 }
 
-.blocks {
-  background-color: #ededed;
+
+.arguments p {
+  color: #ffffff;
+}
+
+.arguments h2 {
+  padding-top: 50px;
 }
 
 .link-color a {
@@ -121,12 +137,24 @@ a {
 }
 
 .filter {
+  display: flex;
   background-image: url("/home/dav/621445-sedona/img/filter-background.jpg");
+}
+
+.filter-items {
+  display: flex;
+  justify-content: space-between;
 }
 
 .filter fieldset {
   border: none;
 }
+
+.filter-items {
+  display: flex;
+  justify-content: space-between;
+}
+
 
 .filter legend {
   font-size: 16px;
@@ -173,11 +201,22 @@ a {
 /*-----Сеточные стили-----*/
 
 .main-navigation {
-  display: flex;
-  flex-direction: column;
   align-items: center;
-  
+
   background-color: transparent;
+}
+
+.site-navigation {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1200px;
+}
+
+.site-navigation a {
+  display: block;
+  padding: 25px 20px;
+
+  color: #ffffff;
 }
 
 .container {
@@ -191,31 +230,110 @@ a {
   height: 353px; 
   display: block;
   margin: 0 auto; 
+  padding: 60px;
 }
 
 .features-list {
   display: flex;
-  flex-direction: row;
+  flex-wrap: wrap;
   height: 100%;
   margin: 0;
   padding: 0;
 
   list-style: none;
-  
-  /* Временно для сетки */
-  min-height: 170px;
 }
 
 .features-item {
-  width: 300px;
-
-  /* Временно для сетки */
-  min-height: 170px;
+  display: flex;
+  width: 100%;
+  text-align: center;
 }
 
+.facilities {
+  display: flex;
+  height: auto;
+  margin: 0;
+  padding: 0px;
 
+  list-style: none;
+}
 
+.facilities-item {
+  width: 400px;
+  text-align: center;
+}
 
+.continue-item {
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+  margin: 0;
+  padding: 0px;
+  background-color: #ededed;
+
+  list-style: none;
+}
+
+.blocks {
+  width: 400px;
+  text-align: center;
+}
+
+.main-footer {
+  padding: 10px;
+  
+  color: #000000;
+  background-repeat: repeat;
+}
+
+.main-footer .container {
+  display: flex;
+}
+
+.footer-contacts {
+  width: 320px;
+  margin: 0;
+  margin-right: 70px;
+}
+
+.footer-social {
+  width: 145px;
+  
+  text-align: center;
+}
+
+.footer-social ul {
+  list-style: none;
+}
+
+.social-button {
+  color: #ffffff;
+}
+
+.footer-copyright {
+  width: 150px;
+  margin: 0;
+  margin-left: auto;
+  text-align: center;
+}
+
+.footer-copyright .button:hover,
+.footer-copyright .button:focus {
+  color: #ffffff;
+
+  background-color: #000000;
+}
+
+.user {
+  direction: flex;
+  width: 575px;
+  height: 400px;
+  text-align: center;
+}
+
+.search {
+  text-align: center;
+}
 
 
 
