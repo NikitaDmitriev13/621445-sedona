@@ -32,6 +32,11 @@ input[type="radio"].visually-hidden {
   overflow: hidden;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 .title {
   text-align: center;
 }
@@ -54,14 +59,39 @@ a {
   background-color: #fefefe;
 }
 
-.site-navigation,
-.user-navigation {
+.main-navigation {
+  display: flex;
+  align-items: center;
+
+  background-color: transparent;
+}
+
+.site-navigation {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1200px;
   list-style: none;
 }
 
-.site-navigation a,
-.user-navigation a {
+.site-navigation a {
+  display: block;
+  padding: 5px 100px;
   color: #000000; 
+}
+
+.main-logo {
+  position: absolute;
+  left: 555px;
+  top: 0px;
+}
+
+.logo {
+  width: 459px;
+  height: 353px; 
+  margin: 0 auto; 
+  padding: 60px;
+  display: flex;
+  align-self: center;
 }
 
 .features-list {
@@ -211,39 +241,10 @@ a {
   padding-bottom: 15px;
 }
 
-/*-----Сеточные стили-----*/
-
-.main-navigation {
-  align-items: center;
-
-  background-color: transparent;
-}
-
-.site-navigation {
-  display: flex;
-  flex-wrap: wrap;
-  width: 1200px;
-}
-
-.site-navigation a {
-  display: block;
-  padding: 25px 20px;
-
-  color: #ffffff;
-}
-
 .container {
   width: 1200px;
   margin: 0 auto;
   padding: 0 10px;
-}
-
-.logo {
-  width: 459px;
-  height: 353px; 
-  display: block;
-  margin: 0 auto; 
-  padding: 60px;
 }
 
 .features-list {
