@@ -159,11 +159,6 @@ a {
   background-image: url("/home/dav/621445-sedona/img/filter-background.jpg");
 }
 
-.filter-items {
-  display: flex;
-  justify-content: space-between;
-}
-
 .filter fieldset {
   border: none;
 }
