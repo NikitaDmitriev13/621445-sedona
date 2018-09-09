@@ -75,13 +75,13 @@ a {
 
 .site-navigation a {
   display: block;
-  padding: 5px 100px;
+  padding: 0px 106px;
   color: #000000; 
 }
 
 .main-logo {
   position: absolute;
-  left: 555px;
+  left: 575px;
   top: 0px;
 }
 
