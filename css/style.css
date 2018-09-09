@@ -70,6 +70,11 @@ a {
 
 .features-item {
   text-align: center;
+  order: -1;
+}
+
+.features-item:first-child {
+  order: -2;
 }
 
 .features-item h2 {
