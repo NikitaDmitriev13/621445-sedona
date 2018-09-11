@@ -60,7 +60,6 @@ a {
 }
 
 .main-navigation {
-  display: flex;
   align-items: center;
 
   background-color: transparent;
@@ -68,20 +67,33 @@ a {
 
 .site-navigation {
   display: flex;
-  flex-wrap: wrap;
+  justify-content: space-between;
   width: 1200px;
+  padding: 0px;
+  text-align: center;
   list-style: none;
 }
 
 .site-navigation a {
   display: block;
-  padding: 0px 106px;
+  width: 25%;
   color: #000000; 
+}
+
+.menu-item-left {
+  text-align: right;
+  width: 25%;
+}
+
+.menu-item-right {
+  text-align: right;
+  width: 25%;
 }
 
 .main-logo {
   position: absolute;
-  left: 575px;
+  left: 50%;
+  margin-left: -70px;
   top: 0px;
 }
 
@@ -152,7 +164,7 @@ a {
 }
 
 .logo-background {
-  background-image: url("/home/dav/621445-sedona/img/bg-photo.jpg");
+  background-image: url("../img/bg-photo.jpg");
   background-repeat: no-repeat;
 }
 
@@ -186,7 +198,7 @@ a {
 
 .filter {
   display: flex;
-  background-image: url("/home/dav/621445-sedona/img/filter-background.jpg");
+  background-image: url(../img/filter-background.jpg);
 }
 
 .filter fieldset {
