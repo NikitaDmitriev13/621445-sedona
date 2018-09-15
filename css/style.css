@@ -32,11 +32,6 @@ input[type="radio"].visually-hidden {
   overflow: hidden;
 }
 
-img {
-  max-width: 100%;
-  height: auto;
-}
-
 .title {
   text-align: center;
 }
@@ -70,24 +65,26 @@ a {
   justify-content: space-between;
   width: 1200px;
   padding: 0px;
-  text-align: center;
   list-style: none;
 }
 
 .site-navigation a {
   display: block;
-  width: 25%;
   color: #000000; 
 }
 
+.menu-item {
+  padding: 73px;
+}
+
 .menu-item-left {
+  padding: 0px 73px;
   text-align: right;
-  width: 25%;
 }
 
 .menu-item-right {
+  padding: 0px 73px;
   text-align: right;
-  width: 25%;
 }
 
 .main-logo {
@@ -135,6 +132,11 @@ a {
   background-color: #90b2d0;
 }
 
+.arguments-img {
+  width: 800px;
+  height: 256px;
+}
+
 
 .arguments p {
   color: #ffffff;
@@ -166,6 +168,17 @@ a {
 .logo-background {
   background-image: url("../img/bg-photo.jpg");
   background-repeat: no-repeat;
+}
+
+.promo {
+  background-image: url("../img/polygon.png");
+  background-repeat: no-repeat;
+  content: "";
+  position: absolute;
+  bottom: -30px;
+  left: 50%;
+
+  background-color: #ffffff;
 }
 
 .button {
@@ -253,7 +266,8 @@ a {
   padding-bottom: 15px;
 }
 
-.container {
+.container  {
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
   width: 1200px;
   margin: 0 auto;
   padding: 0 10px;
