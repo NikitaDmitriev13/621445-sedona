@@ -338,8 +338,12 @@ a {
   background-color: #000000;
 }
 
+.search-section {
+  text-align: center;
+}
+
 .modal {
-  direction: flex;
+  display: inline-block;
   width: 575px;
   height: 400px;
   text-align: center;
@@ -354,7 +358,7 @@ a {
   text-align: center;
 }
 
-.link-color {
+.open-search {
   text-align: center;
 
   color: #fefefe;
@@ -364,12 +368,12 @@ a {
   padding: 15px 60px;
 }
 
-.link-color a:hover,
-.link-color a:focus {
+.open-search a:hover,
+.open-search a:focus {
   background-color: #5c4f45;
 }
 
-.link-color a:active {
+.open-search a:active {
   background-color: #503e33;
   color: #857871;
 }
