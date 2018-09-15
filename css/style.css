@@ -14,6 +14,13 @@ body {
   background-repeat: no-repeat;
 }
 
+.container  {
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0;
+}
+
 .visually-hidden:not(:focus):not(:active),
 input[type="checkbox"].visually-hidden,
 input[type="radio"].visually-hidden {
@@ -50,13 +57,9 @@ a {
   font-size: 14px;
   line-height: 26px;
   color: #000000;
-
-  background-color: #fefefe;
-}
-
-.main-navigation {
   align-items: center;
 
+  background-color: #fefefe;
   background-color: transparent;
 }
 
@@ -64,7 +67,8 @@ a {
   display: flex;
   justify-content: space-between;
   width: 1200px;
-  padding: 0px;
+  padding: 15px;
+  margin: 0;
   list-style: none;
 }
 
@@ -144,25 +148,6 @@ a {
 
 .arguments h2 {
   padding-top: 50px;
-}
-
-.link-color a {
-  color: #fefefe;
-  background-color: #706358;
-  min-width: 458px;
-  margin-top: 56px;
-  padding-top: 15px;
-  padding-bottom: 15px;
-}
-
-.link-color a:hover,
-.link-color a:focus {
-  background-color: #5c4f45;
-}
-
-.link-color a:active {
-  background-color: #503e33;
-  color: #857871;
 }
 
 .logo-background {
@@ -266,13 +251,6 @@ a {
   padding-bottom: 15px;
 }
 
-.container  {
-  box-shadow: 0 0 10px rgba(0,0,0,0.5);
-  width: 1200px;
-  margin: 0 auto;
-  padding: 0 10px;
-}
-
 .features-list {
   display: flex;
   flex-wrap: wrap;
@@ -326,10 +304,6 @@ a {
   background-repeat: repeat;
 }
 
-.main-footer .container {
-  display: flex;
-}
-
 .footer-contacts {
   width: 320px;
   margin: 0;
@@ -364,17 +338,41 @@ a {
   background-color: #000000;
 }
 
-.user {
+.modal {
   direction: flex;
   width: 575px;
   height: 400px;
   text-align: center;
+  background-color: #fefefe;
+
+  position: absolute;
+  right: 28%;
 }
 
-.search {
+.modal-login {
+  display: inline-block;
   text-align: center;
 }
 
+.link-color {
+  text-align: center;
+
+  color: #fefefe;
+  background-color: #706358;
+  width: 568px;
+  height: 60px;
+  padding: 15px 60px;
+}
+
+.link-color a:hover,
+.link-color a:focus {
+  background-color: #5c4f45;
+}
+
+.link-color a:active {
+  background-color: #503e33;
+  color: #857871;
+}
 
 
 
