@@ -183,6 +183,7 @@ a {
   padding: 0px;
   border: none;
   color: #a9a9a9;
+  fill: #a9a9a9;
   background-color: transparent;
 }
 
@@ -202,19 +203,17 @@ a {
 }
 
 .filter {
-  display: flex;
   background-image: url(../img/filter-background.jpg);
+}
+
+.filter-container {
+  display: flex;
+  justify-content: space-between;
 }
 
 .filter fieldset {
   border: none;
 }
-
-.filter-items {
-  display: flex;
-  justify-content: space-between;
-}
-
 
 .filter legend {
   font-size: 16px;
@@ -383,6 +382,34 @@ a {
 .open-search a:active {
   background-color: #503e33;
   color: #857871;
+}
+
+.sorting-button {
+  font-size: 12px;
+  line-height: 18px;
+  color: #a9a9a9;
+  fill: #a9a9a9;
+}
+
+.catalog-list {
+  padding: 0px;
+}
+
+.catalog-item {
+  padding: 0px 73px;
+  border-bottom: 2px solid #e5e5e5;
+}
+
+.sorting {
+  display: flex;
+  flex-wrap: wrap;
+  border-bottom: 2px solid #e5e5e5;
+}
+
+.found {
+  font-size: 21px;
+  line-height: 26px;
+  padding: 0px 73px;
 }
 
 
