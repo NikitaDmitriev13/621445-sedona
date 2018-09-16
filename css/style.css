@@ -231,7 +231,10 @@ a {
 
 .filter-items {
   width: 150px;
-  margin-left: auto;
+}
+
+.filter-range {
+  margin-left: auto; 
 }
 
 .catalog-list {
@@ -336,6 +339,30 @@ a {
   margin: 0;
   margin-left: auto;
   text-align: center;
+}
+
+.login-checkbox {
+  position: relative;
+
+  padding-left: 30px;
+
+  cursor: pointer;
+}
+
+.login-checkbox:hover,
+.login-checkbox:focus {
+  color: #663d15;
+}
+
+.filter-checkbox input[type="checkbox"] + .checkbox-indicator {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  width: 17px;
+  height: 17px;
+
+  border: 2px solid #fefefe;
 }
 
 .footer-copyright .button:hover,
