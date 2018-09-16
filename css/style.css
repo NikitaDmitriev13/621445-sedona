@@ -179,6 +179,13 @@ a {
   border: none;
 }
 
+.calendar-button {
+  padding: 0px;
+  border: none;
+  color: #a9a9a9;
+  background-color: transparent;
+}
+
 .appointment-item input {
   font: inherit;
 
@@ -320,10 +327,6 @@ a {
   list-style: none;
 }
 
-.social-button {
-  color: #ffffff;
-}
-
 .footer-copyright {
   width: 150px;
   margin: 0;
@@ -340,17 +343,17 @@ a {
 
 .search-section {
   text-align: center;
+  position: relative;
 }
 
 .modal {
-  display: inline-block;
   width: 575px;
   height: 400px;
   text-align: center;
   background-color: #fefefe;
 
   position: absolute;
-  right: 28%;
+  left: 26%;
 }
 
 .modal-login {
@@ -358,14 +361,18 @@ a {
   text-align: center;
 }
 
-.open-search {
-  text-align: center;
+.field::placeholder {
+  border: none;
+  background-color: #b2b2b2;
 
+}
+
+.open-search {
+  display: inline-block;
   color: #fefefe;
   background-color: #706358;
-  width: 568px;
+  width: 575px;
   height: 60px;
-  padding: 15px 60px;
 }
 
 .open-search a:hover,
