@@ -354,10 +354,13 @@ a {
   color: #663d15;
 }
 
-.filter-checkbox input[type="checkbox"] + .checkbox-indicator {
-  position: absolute;
-  top: 0;
-  left: 0;
+.filter-checkbox input[type="checkbox"] + .checkbox-indicator::before {
+  position: relative;
+  content: "";
+  display: inline-block;
+
+  background-image: url(file:///home/dav/.cache/.fr-Z9kZ0H/svg-sedona/checkbox-on.svg);
+  background-image: url(file:///home/dav/.cache/.fr-9vdi72/svg-sedona/checkbox-off.svg);
 
   width: 17px;
   height: 17px;
