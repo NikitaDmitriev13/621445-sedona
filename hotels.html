@@ -30,12 +30,18 @@
                 <fieldset class="filter-form-col">
                   <legend>Инфраструктура:</legend>
                   <div class="categories">
-                    <label for="filter-pool">Бассейн</label>
-                    <input type="checkbox" name="pool" id="filter-pool" checked>
-                    <label for="filter-parking">Парковка</label>
-                    <input type="checkbox" name="parking" id="filter-parking">
-                    <label for="filter-wi-fi">Wi-Fi</label>
-                    <input type="checkbox" name="wi-fi" id="filter-wi-fi">
+                    <div class="filter-checkbox">
+                      <input type="checkbox" name="pool" id="filter-pool" checked class="visually-hidden">
+                      <label class="checkbox-indicator" for="filter-pool">Бассейн</label>
+                    </div>
+                    <div class="filter-checkbox">
+                      <input type="checkbox" name="parking" id="filter-parking" class="visually-hidden">
+                      <label class="checkbox-indicator" for="filter-parking">Парковка</label>
+                    </div>
+                    <div class="filter-checkbox">
+                      <input type="checkbox" name="wi-fi" id="filter-wi-fi" class="visually-hidden">
+                      <label class="checkbox-indicator" for="filter-wi-fi">Wi-Fi</label>
+                    <div class="filter-checkbox"></div>
                   </div>
                 </fieldset>
               </div>
@@ -44,16 +50,16 @@
                   <legend>Тип жилья:</legend>
                   <div class="categories">
                     <div class="filter-checkbox">
-                      <label class="checkbox-indicator" for="filter-hotel">Гостиница</label>
                       <input type="checkbox" name="hotel" id="filter-hotel" checked class="visually-hidden">
+                      <label class="checkbox-indicator" for="filter-hotel">Гостиница</label>
                     </div>
                     <div class="filter-checkbox">
-                      <label class="checkbox-indicator" for="filter-motel">Мотель</label>
                       <input type="checkbox" name="motel" id="filter-motel" checked class="visually-hidden">
+                      <label class="checkbox-indicator" for="filter-motel">Мотель</label>
                     </div>
                     <div class="filter-checkbox">
-                      <label class="checkbox-indicator" for="filter-apartments">Апартаменты</label>
                       <input type="checkbox" name="apartments" id="filter-apartments" checked class="visually-hidden">
+                      <label class="checkbox-indicator" for="filter-apartments">Апартаменты</label>
                     </div>
                   </div>
                 </fieldset>
